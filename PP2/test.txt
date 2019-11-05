@@ -1,0 +1,11 @@
+var x = 0;
+while (x < 10) {
+  var x = 0;
+  x = x + 1;
+  x = x - 1;
+  break;
+}
+if (x > 0) {
+  x = 2;
+}
+return x;
